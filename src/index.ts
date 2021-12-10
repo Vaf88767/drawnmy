@@ -10,4 +10,3 @@ class Actions {
     }
 }
 
-const createActions = new Actions(ctx)

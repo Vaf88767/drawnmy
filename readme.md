@@ -2,25 +2,42 @@
 Drawmy é um modulo que ultiza canvas tag para projetar e criar
 
 para instalar o pacote:
+
+-para ter acessos aos tipos e etc(recomendado)
 ```bash
-npm i drawmy
+npm i webpack
+```
+-com cdn
+```html
+<script src=""></script>
 ```
 
 ```js
-const {createActions} = require("drawmy")
+const {Actions} = require("drawmy")
 ```
 caso ultiliza typescript:
 ```ts
-import {createActions} from "drawmy"
+import {Actions} from "drawmy"
+```
+``inicializador:``
+
+```js
+const createActions = new Actions(ctx)
 ```
 
-a função draw possui os seguintes parametros:
+``funções:``
 
-i: url da imagem
-x: cordanada x
-y: cordenada y
-width: largura
-height: altura
+``a função draw possui os seguintes parametros:``
+
+``i: url da imagem``
+
+``x: cordanada x``
+
+``y: cordenada y``
+
+``width: largura``
+
+``height: altura``
 
 ```js
 draw("urldaimagem", 10,10, 500, 500)

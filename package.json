@@ -6,7 +6,7 @@
   "name": "drawmy",
   "description": "Drawmy é um modulo que ultiza canvas tag para projetar e criar",
   "version": "1.0.0",
-  "main": "class/main.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
