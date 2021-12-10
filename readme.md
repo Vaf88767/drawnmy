@@ -27,7 +27,7 @@ const createActions = new Actions(ctx)
 
 ``funções:``
 
-``a função draw possui os seguintes parametros:``
+``a função draw possui os seguintes parâmetros:``
 
 ``i: url da imagem``
 
@@ -42,3 +42,13 @@ const createActions = new Actions(ctx)
 ```js
 draw("urldaimagem", 10,10, 500, 500)
 ```
+
+``a função clearall limpa a tela completamente``
+
+``função aleatoryObjects possui os seguintes parametros:``
+
+``is: uma array com as urls das imagens``
+
+``min: numero minimo para gerar uma posição aleatoria``
+
+``max: numero maximo para gerar uma posição aleatoria``
