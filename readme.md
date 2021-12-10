@@ -58,5 +58,5 @@ createActions.draw("urldaimagem", 10,10, 500, 500)
 ``heigth: altura``
 
 ```js
-createActions.aleatoryObjects(["url","url"], -1000, 1000)
+createActions.aleatoryObjects(["url","url"], -1000, 1000,50,50)
 ```
