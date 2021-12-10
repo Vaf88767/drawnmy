@@ -14,10 +14,14 @@ caso ultiliza typescript:
 import {createActions} from "drawmy"
 ```
 
--draw(i,x,y,width,height) 
-    essa função desenha tudo oque você colocar no parametro i
-    i: url da imagem
-    x: posição x
-    y: posição y
-    width: largura
-    height: altura
+a função draw possui os seguintes parametros:
+
+i: url da imagem
+x: cordanada x
+y: cordenada y
+width: largura
+height: altura
+
+```js
+draw("urldaimagem", 10,10, 500, 500)
+```
