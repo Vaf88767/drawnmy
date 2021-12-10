@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "typescript": "^4.5.3"
+  },
+  "name": "drawmy",
+  "description": "Drawmy é um modulo que ultiza canvas tag para projetar e criar",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaf88767/drawnmy.git"
+  },
+  "keywords": ["canvas","game"],
+  "author": "Vaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaf88767/drawnmy/issues"
+  },
+  "homepage": "https://github.com/Vaf88767/drawnmy#readme"
+}
