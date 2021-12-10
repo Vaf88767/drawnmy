@@ -11,11 +11,11 @@ npm i webpack
 ```html
 <script src=""></script>
 ```
-
+com commonjs:
 ```js
 const {Actions} = require("drawmy")
 ```
-caso ultiliza typescript:
+caso ultiliza ES6:
 ```ts
 import {Actions} from "drawmy"
 ```
