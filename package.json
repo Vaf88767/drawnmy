@@ -1,24 +1,32 @@
 {
   "dependencies": {
-    "typescript": "^4.5.3"
+    "typescript": "^4.5.3",
+    "webpack": "^5.65.0"
   },
   "name": "drawmy",
   "description": "Drawmy é um modulo que ultiza canvas tag para projetar e criar",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "class/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vaf88767/drawnmy.git"
   },
-  "keywords": ["canvas","game"],
+  "keywords": [
+    "canvas",
+    "game"
+  ],
   "author": "Vaf",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vaf88767/drawnmy/issues"
   },
-  "homepage": "https://github.com/Vaf88767/drawnmy#readme"
+  "homepage": "https://github.com/Vaf88767/drawnmy#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "webpack-cli": "^4.9.1"
+  }
 }
