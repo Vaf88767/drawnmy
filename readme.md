@@ -31,9 +31,9 @@ const createActions = new Actions(ctx)
 
 ``i: url da imagem``
 
-``x: cordenada x``
+``x: coordenada x``
 
-``y: cordenada y``
+``y: coordenada y``
 
 ``width: largura``
 
