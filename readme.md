@@ -40,7 +40,7 @@ const createActions = new Actions(ctx)
 ``height: altura``
 
 ```js
-draw("urldaimagem", 10,10, 500, 500)
+createActions.draw("urldaimagem", 10,10, 500, 500)
 ```
 
 ``a função clearall limpa a tela completamente``
@@ -52,3 +52,7 @@ draw("urldaimagem", 10,10, 500, 500)
 ``min: numero minimo para gerar uma posição aleatoria``
 
 ``max: numero maximo para gerar uma posição aleatoria``
+
+```js
+createActions.aleatoryObjects(["url","url"], -1000, 1000)
+```
