@@ -53,6 +53,10 @@ createActions.draw("urldaimagem", 10,10, 500, 500)
 
 ``max: numero maximo para gerar uma posição aleatoria``
 
+``width: largura``
+
+``heigth: altura``
+
 ```js
 createActions.aleatoryObjects(["url","url"], -1000, 1000)
 ```

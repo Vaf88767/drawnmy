@@ -12,9 +12,14 @@ class Actions {
     clearall() {
      this.ctx.clearRect(0,0,this.ctx.canvas.width, this.ctx.canvas.height)
     }
-    generateObjects(is: string[], min:number, max:number) {
-      const array = is
-      
+    generateObjects(is: string[], min:number, max:number, width:number, height: number) {
+      const random = is
+        let y1 = Math.floor(Math.random() * (min - max) + min)
+        let x1 = Math.floor(Math.random() * (min - max) + min)
+        let i = random[Math.floor(Math.random() * random.length)]
+        let img = new Image()        
+        img.src = i                   
+        this.ctx.drawImage(img,x1,y1,width,height) 
     }
 }
 
