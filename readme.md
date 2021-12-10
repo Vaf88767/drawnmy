@@ -15,7 +15,7 @@ com commonjs:
 ```js
 const {Actions} = require("drawmy")
 ```
-caso ultiliza ES6:
+caso utilize ES6:
 ```ts
 import {Actions} from "drawmy"
 ```
@@ -31,7 +31,7 @@ const createActions = new Actions(ctx)
 
 ``i: url da imagem``
 
-``x: cordanada x``
+``x: cordenada x``
 
 ``y: cordenada y``
 
